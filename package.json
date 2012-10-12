@@ -1,0 +1,35 @@
+{
+  "name": "timeline",
+  "description": "Timeline widget from SIMILE.",
+  "version": "2.3.0",
+  "homepage": "https://github.com/wsg4w/timeline_2.3.0",
+  "author": {
+    "name": "Wayne Graham",
+    "email": "wayne.graham@virginia.edu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/waynegraham/timeline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/waynegraham/timeline/issues"
+  },
+  "licenses": [
+    {
+      "type": "New BSD",
+      "url": "https://github.com/waynegraham/timeline/blob/master/LICENSE.txt"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15",
+    "grunt-contrib-mincss": "~0.3.1",
+    "grunt-smushit": "~0.3.7"
+  },
+  "keywords": [
+    "timeline",
+    "simile"
+  ]
+}
