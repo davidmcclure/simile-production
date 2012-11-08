@@ -18,7 +18,13 @@ Download the [production version][min] or the [development version][max].
 In your web page:
 
 ```html
-<script src="dist/timeline.min.js"></script>
+<script>
+  Timeline_ajax_url = 'https://raw.github.com/waynegraham/timeline/master/dist/timeline_ajax/simile-ajax-api.js';
+  Timeline_urlPrefix='https://raw.github.com/waynegraham/timeline/master/dist/timeline/timeline.js';
+  Timeline_parameters='bundle=true';
+</script>
+<script
+src="https://raw.github.com/waynegraham/timeline/master/dist/timeline-api.js"></script>
 <script>
 var element = document.getElementById('timeline');
 var bands = [
