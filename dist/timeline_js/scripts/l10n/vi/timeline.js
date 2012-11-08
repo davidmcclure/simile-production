@@ -1,9 +1,1 @@
-﻿/*==================================================
- *  Common localization strings
- *==================================================
- */
-
-Timeline.strings["vi"] = {
-    wikiLinkLabel:  "Bàn luận"
-};
-
+Timeline.strings.vi={wikiLinkLabel:"Bàn luận"};

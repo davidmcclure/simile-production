@@ -1,9 +1,1 @@
-/*==================================================
- *  Common localization strings
- *==================================================
- */
-
-Timeline.strings["tr"] = {
-    wikiLinkLabel:  "Tartış"
-};
-
+Timeline.strings.tr={wikiLinkLabel:"Tartış"};
