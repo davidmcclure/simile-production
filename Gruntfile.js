@@ -18,8 +18,8 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'dist/timeline_js/**/*.js',
-          'dist/timeline_ajax/**/*.js'
+          'dist/bootstrap.js',
+          'scripts/**/*.js'
         ],
         dest: 'dist/production/simile.js'
       }
@@ -28,10 +28,7 @@ module.exports = function(grunt) {
     cssmin: {
       compress: {
         files: {
-          "dist/production/simile.css": [
-            "dist/timeline_js/timeline-bundle.css",
-            "dist/timeline_ajax/styles/graphics.css"
-          ]
+          'dist/production/simile.css': 'styles/*.css'
         }
       }
     }
