@@ -19,7 +19,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'dist/bootstrap.js',
-          'scripts/**/*.js'
+          'scripts/l10n/*.js',
+          'scripts/*.js'
         ],
         dest: 'dist/production/simile.js'
       }
