@@ -19,10 +19,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'dist/bootstrap.js',
-          'dist/timeline_ajax/simile-ajax-api.js',
-          'dist/timeline_ajax/simile-ajax-bundle.js',
-          'dist/timeline_js/timeline-api.js',
-          'dist/timeline_js/timeline-bundle.js'
+          'dist/scripts/*.js',
+          'dist/scripts/l10n/*.js',
         ],
         dest: 'dist/production/simile.js'
       }
@@ -31,7 +29,9 @@ module.exports = function(grunt) {
     cssmin: {
       compress: {
         files: {
-          'dist/production/simile.css': 'styles/*.css'
+          'dist/production/simile.css': [
+            'dist/styles/*.css'
+          ]
         }
       }
     }
