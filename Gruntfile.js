@@ -20,6 +20,7 @@ module.exports = function(grunt) {
         src: [
           'dist/bootstrap.js',
           'dist/timeline_ajax/simile-ajax-api.js',
+          'dist/timeline_ajax/simile-ajax-bundle.js',
           'dist/scripts/*.js',
           'dist/scripts/l10n/*.js',
         ],
