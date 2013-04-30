@@ -7,4 +7,5 @@
  * @license     http://www.apache.org/licenses/LICENSE-2.0.html
  */
 
-Timeline = {};
+SimileAjax_isCompiled = true;
+Timeline_isCompiled = true;
